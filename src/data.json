@@ -1,0 +1,4 @@
+{
+  "explainTeaser": "Try me! Type \"!play\"",
+  "helpMessage": "Fanfare Help:\n\t -- !play - Play fanfare\n\t -- !stop - Stop playback and tell bot to leave\n\t -- !help - Display help message"
+}
