@@ -1,0 +1,13 @@
+[Unit]
+Description=Fanfare Bot Service
+
+[Service]
+ExecStart=/PATH/TO/APP/start.sh
+WorkingDirectory=/PATH/TO/APP/
+LimitNOFILE=4096
+IgnoreSIGPIPE=false
+KillMode=process
+User=YOUR-USER
+
+[Install]
+WantedBy=multi-user.target
